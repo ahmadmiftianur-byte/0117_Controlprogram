@@ -13,4 +13,11 @@ float Rata_rata(float a, float b){
 string status_lulus(float r){
     if (r>= 60)
         return "Lolos";
-       
+        else if (r>= 50)
+            return "lolos pertimbangan";
+        else if (r<= 40)
+        return "lu lus tetapi metrikulasi 1 tahun";    
+    else
+        return "gagal";
+}
+

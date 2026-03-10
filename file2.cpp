@@ -5,11 +5,6 @@ float Rata_rata(float a, float b){
     return (a+b)/2;
 }
 
-
-    //status = status_lulus(rerata);
-
-    cout << "status kelulusan = " << status_lulus(rerata)<<" ,dengan nilai rerata = " <<rerata<<endl;
-}
 string status_lulus(float r){
     if (r>= 60)
         return "Lolos";
@@ -37,3 +32,6 @@ int main(){
     //else
     //    status = "Gagal";
     rerata = Rata_rata(nilBI, nilMTK);
+    //status = status_lulus(rerata);
+    cout << "status kelulusan = " <<status_lulus(rerata) <<" ,DENGAN NILAI RERATA = " <<rerata<<endl;
+}
